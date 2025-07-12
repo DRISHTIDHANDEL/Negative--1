@@ -1,0 +1,233 @@
+/* Base Styles */
+h1{
+  font-size: 40px;
+}
+ body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fb;
+  margin: 0;
+  padding: 0;
+  color: #1e1e2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password{
+  height: 35px;
+}
+.resister{
+  background-color:#ccc;
+  display: inline;
+  height: 40px;
+  border-radius: 10px;
+  
+  
+}
+/* Navbar */
+.navbar {
+ 
+  background-color:whitesmoke;
+  padding: 1rem 2rem;
+  display: flex;
+  width: 100%;
+  justify-content:space-evenly;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px blue solid;
+}
+button a{
+  text-decoration: none;
+}
+.nav-head{
+  
+}
+.navbar h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .notification {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar .notification-icon {
+  width: 24px;
+  height: 24px;
+  right: 20rem;
+}
+
+.navbar .badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: red;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 9999px;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.3s;
+    background-color: #2f80ed;
+    color: white;
+}
+
+a.submit-btn {
+  display: inline-block;
+  text-align: center;
+  background-color: #2f80ed;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.submit-btn:hover {
+  background-color:#2f80ff;
+}
+
+
+
+
+button:hover{
+    background-color: #1c64d2;
+}
+
+/* Ask Question */
+
+ .container {
+   max-width: 100%;
+  width: 95%;
+  height: 800px;
+  /* margin-top: 3rem; */
+  background: linear-gradient(to right, #f0f4ff, #ddf);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  color: #1f2e4d;
+  border: 1px black solid;
+}
+
+
+.container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+input[type="text"], .rich-editor {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.rich-editor {
+  min-height: 200px;
+  background-color: #fff;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #eee;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.tag.selected {
+  background-color: #2563eb;
+  color: white;
+}
+
+button.submit-btn {
+  background-color: #22c55e;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* Question Section */
+.question-block {
+  margin-bottom: 2rem;
+}
+
+.question-content {
+  background: #f1f5f9;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.question-tags {
+  margin-top: 0.5rem;
+}
+
+/* Answers */
+.answer-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
+.answer-block {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+.vote-buttons {
+  text-align: center;
+}
+
+.vote {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.vote-count {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.accepted-badge {
+  background-color: #16a34a;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+/* Answer Form */
+.answer-form h4 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+}
