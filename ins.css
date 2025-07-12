@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    border: 1px #007bff solid;
+    
+
+}
+
+/* Main navigation bar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #f0f4ff, #ddf);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+/* Website logo/name */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Container for the right-side elements */
+.navbar-elements {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Space between the elements */
+}
+
+/* Search bar styling */
+.search-bar {
+    position: relative;
+    
+    
+}
+
+.search-bar input {
+    padding: 0.5rem 1rem;
+    padding-right: 2.5rem; /* Make space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    width: 350px;
+    transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+    outline: none;
+    height: 40px;
+    font-size : 20px;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+/* .input{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+} */
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    color: #888;
+    
+}
+
+/* "Ask a Question" icon styling */
+.nav-icon {
+    font-size: 1.5rem;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-icon:hover {
+    color: #007bff;
+}
+
+/* "Join Now" button styling */
+.join-btn {
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.join-btn:hover {
+    background-color: #0056b3;
+}
+.subject-nav {
+ display: flex;
+ align-items: center;
+ background-color:#ddf; /* Light grey background */
+ padding: 8px;
+ border-radius: 4px;
+ overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.nav-arrow {
+ background: none;
+ border: 1px solid #ccc;
+ border-radius: 50%;
+ width: 32px;
+ height: 32px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ font-size: 16px;
+ color: #555;
+ margin: 0 8px;
+}
+
+.nav-item {
+ display: flex;
+ align-items: center;
+ padding: 8px 12px;
+ margin: 0 4px;
+ border-radius: 4px;
+ white-space: nowrap; /* Prevent text from wrapping */
+ cursor: pointer;
+ color: #333;
+ transition: background-color 0.3s ease;
+}
+
+.nav-item.active {
+ background-color: #e9ecef; /* Slightly darker background for the active item */
+}
+
+.nav-item:hover {
+ background-color: #e9ecef;
+}
+
+.icon {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 8px;
+ width: 20px;
+ height: 20px;
+}
+
+.icon svg {
+ width: 100%;
+ height: 100%;
+}
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a#askBtn {
+  display: inline-block;
+  padding: 10px 15px;
+  background:#0056b3;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+a#askBtn:hover {
+  background-color: #218838}
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 10px; }
+        .question-card { border: 1px solid #ccc;
+             padding: 15px;
+             margin-bottom: 10px;
+             border-radius: 5px; }
+
+
+       .question-title { font-weight: bold;
+         font-size: 1.2em; }
+    
+         #loading { display: none;
+         margin: 20px 0;
+          font-style: italic;
+           color: #888; }
+        #loadMoreBtn { padding: 10px 15px;
+             border: none;
+              background-color: #007bff; 
+              color: white; cursor: pointer;
+               border-radius: 5px; }
