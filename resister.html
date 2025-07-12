@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background: linear-gradient(to right, #f0f4ff, #ddf);
+      height: 700px;
+     
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 16px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Register</h2>
+  <form action="/submit_registration" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="gmail">Gmail Address:</label>
+    <input type="email" id="gmail" name="gmail" pattern="[a-zA-Z0-9._%+-]+@gmail\.com$" title="Enter a valid Gmail address" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required minlength="6">
+
+    <input type="submit" value="Register">
+  </form>
+</div>
+
+</body>
+</html>
