@@ -3,7 +3,8 @@ Odoo hackathon
 <br>
 
 Problem Statement - 2
-StackIt – A Minimal Q&A Forum Platform
+<br>
+<b>StackIt – A Minimal Q&A Forum Platform</b>
 <br>
 Team members name 
 <br>
